@@ -1,0 +1,1 @@
+/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/ros_can_sim/lib/pkgconfig/ros_can_sim.pc

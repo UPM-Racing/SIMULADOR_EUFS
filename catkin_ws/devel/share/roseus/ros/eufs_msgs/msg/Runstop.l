@@ -1,0 +1,1 @@
+/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/eufs_msgs/share/roseus/ros/eufs_msgs/msg/Runstop.l

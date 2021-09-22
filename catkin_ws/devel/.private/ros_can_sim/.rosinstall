@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/miguel/Documentos/EUFS/catkin_ws/devel/.private/ros_can_sim/setup.sh

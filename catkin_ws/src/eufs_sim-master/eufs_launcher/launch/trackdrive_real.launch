@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- EKF Node -->
+  <node name="ekf_node" pkg="Simulation-nodes" type="API_Kinematic_state_estimation_real.py" output="screen">
+  </node>
+
+  <!-- SLAM Node -->
+  <node name="slam_node" pkg="Simulation-nodes" type="API_SLAM_real.py" output="screen">
+  </node>
+
+  <!-- Path planning Node -->
+  <node name="path_planning_node" pkg="Simulation-nodes" type="API_pathplanning_trackdrive_real.py" output="screen">
+  </node>
+
+  <!-- Control Node -->
+  <node name="control_node" pkg="Simulation-nodes" type="API_Stanley_trackdrive_real.py" output="screen">
+  </node>
+
+</launch>

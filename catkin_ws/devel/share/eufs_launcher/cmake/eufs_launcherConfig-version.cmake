@@ -1,0 +1,1 @@
+/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/eufs_launcher/share/eufs_launcher/cmake/eufs_launcherConfig-version.cmake
