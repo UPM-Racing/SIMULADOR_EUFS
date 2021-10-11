@@ -1,1 +1,0 @@
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/catkin_tools_prebuild/setup.bash

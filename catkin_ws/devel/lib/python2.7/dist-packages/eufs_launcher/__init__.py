@@ -1,1 +1,0 @@
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/eufs_launcher/lib/python2.7/dist-packages/eufs_launcher/__init__.py

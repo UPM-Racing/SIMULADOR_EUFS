@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -std=c++14 -Wuninitialized -Wall -Wextra -Wunused-parameter  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/miguel/Documentos/EUFS/catkin_ws/build/ros_can_sim/gtest/googlemock/gtest/src -Wl,-rpath,/home/miguel/Documentos/EUFS/catkin_ws/build/ros_can_sim/gtest/googlemock/gtest/src -lpthread 

@@ -1,1 +1,0 @@
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/eufs_msgs/share/eufs_msgs/msg/CheckForObjectsActionGoal.msg

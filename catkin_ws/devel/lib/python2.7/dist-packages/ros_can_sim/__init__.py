@@ -1,1 +1,0 @@
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/ros_can_sim/lib/python2.7/dist-packages/ros_can_sim/__init__.py
