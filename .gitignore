@@ -1,3 +1,7 @@
+logs
+devel
+build
 Simulation-nodes
 *.pyc
+*.log
 
