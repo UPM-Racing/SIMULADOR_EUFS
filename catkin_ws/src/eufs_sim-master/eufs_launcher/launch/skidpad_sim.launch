@@ -2,7 +2,7 @@
 <launch>
 
   <!-- EKF Node -->
-  <node name="ekf_node" pkg="Simulation-nodes" type="API_Kinematic_state_estimation_skidpad_sim.py" output="screen">
+  <node name="ekf_node" pkg="Simulation-nodes" type="API_Kinematic_state_estimation_sim.py" output="screen">
   </node>
 
   <!-- Ground Truth Node -->

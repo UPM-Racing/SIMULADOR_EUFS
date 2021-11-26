@@ -72,7 +72,7 @@
 		<gazebo>
 			<plugin filename="libhector_gazebo_ros_gps.so" name="${prefix}_controller">
 				<alwaysOn>1</alwaysOn>
-				<updateRate>5</updateRate>
+				<updateRate>10</updateRate>
 				<bodyName>${prefix}_link</bodyName>
 				<!-- must be the link of the gps device, not the base_link or base_footprint -->
 				<frameId>${prefix}_link</frameId>

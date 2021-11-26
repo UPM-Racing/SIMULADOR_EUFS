@@ -45,7 +45,7 @@ eufs_launcher:
             priority: 2
             name: "Perception_Checkbox"
             label: "Use Simulated Perception"
-            checked_on_default: Yes
+            checked_on_default: No
             parameter_triggering:
             # Note that this is working as intended - "no_perception" means
             # No real perception!  In which case we use the simulated perception.
@@ -65,7 +65,7 @@ eufs_launcher:
             priority: 4
             name: "Ground_Truth_Transform"
             label: "Ground Truth TF"
-            checked_on_default: No
+            checked_on_default: Yes
             parameter_triggering:
                 if_on: {"publish_gt_tf:=true"}
                 if_off: {"publish_gt_tf:=false"}

@@ -10,15 +10,15 @@
   </node>
 
   <!-- SLAM Node -->
-  <node name="slam_node" pkg="Simulation-nodes" type="API_SLAM_sim.py" output="screen">
+  <!-- <node name="slam_node" pkg="Simulation-nodes" type="API_SLAM_sim.py" output="screen">
   </node>
-
+  -->
   <!-- Path planning Node -->
-  <node name="path_planning_node" pkg="Simulation-nodes" type="API_pathplanning_trackdrive_sim.py" output="screen">
+  <node name="path_planning_node" pkg="Simulation-nodes" type="API_pathplanning_acceleration_sim.py" output="screen">
   </node>
 
   <!-- Control Node -->
-  <node name="control_node" pkg="Simulation-nodes" type="API_Stanley_trackdrive_sim.py" output="screen">
+  <node name="control_node" pkg="Simulation-nodes" type="API_Stanley_acceleration_sim.py" output="screen">
   </node>
 
 </launch>

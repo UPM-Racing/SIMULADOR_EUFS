@@ -1502,32 +1502,60 @@ class ConversionTools:
                 # Note that the indexing may be confusing, pandas has inserted an "index" column,
                 # so all indices that you would expect should be shifted upwards by 1
                 for bluecone in blue_cones.itertuples():
-                        x = (bluecone[2])
-                        y = (bluecone[3])
+                        print(len(bluecone))
+                        #print(len(bluecone))
+                        # print('***************************************')
+                        # print(bluecone)
+
+                        # _ = 0
+                        # for cosa in bluecone:
+                        #         print(_, cosa)
+                        #         _ = _ +1
+                        # print('***************************************')
+                        if len(bluecone) == 9:
+                                x = (bluecone[3])
+                                y = (bluecone[4])
+                        else:
+                                x = (bluecone[2])
+                                y = (bluecone[3])
+
                         x_cov = bluecone[5]
                         y_cov = bluecone[6]
                         xy_cov = bluecone[7]
                         raw_blue.append(("blue", 1.0 * x, 1.0 * y, 0, x_cov, y_cov, xy_cov))
 
                 for yellowcone in yellow_cones.itertuples():
-                        x = (yellowcone[2])
-                        y = (yellowcone[3])
+                        if len(yellowcone) == 9:
+                                x = (yellowcone[3])
+                                y = (yellowcone[4])
+                        else:
+                                x = (yellowcone[2])
+                                y = (yellowcone[3])
+
                         x_cov = bluecone[5]
                         y_cov = bluecone[6]
                         xy_cov = bluecone[7]
                         raw_yellow.append(("yellow", 1.0 * x, 1.0 * y, 0, x_cov, y_cov, xy_cov))
 
                 for orangecone in orange_cones.itertuples():
-                        x = (orangecone[2])
-                        y = (orangecone[3])
+                        if len(orangecone) == 9:
+                                x = (orangecone[3])
+                                y = (orangecone[4])
+                        else:
+                                x = (orangecone[2])
+                                y = (orangecone[3])
                         x_cov = bluecone[5]
                         y_cov = bluecone[6]
                         xy_cov = bluecone[7]
                         raw_orange.append(("orange", 1.0 * x, 1.0 * y, 0, x_cov, y_cov, xy_cov))
 
                 for big_orangecone in big_orange_cones.itertuples():
-                        x = (big_orangecone[2])
-                        y = (big_orangecone[3])
+                        if len(big_orangecone) == 9:
+                                x = (big_orangecone[3])
+                                y = (big_orangecone[4])
+                        else:
+                                x = (big_orangecone[2])
+                                y = (big_orangecone[3])
                         x_cov = bluecone[5]
                         y_cov = bluecone[6]
                         xy_cov = bluecone[7]
@@ -1550,7 +1578,12 @@ class ConversionTools:
                                 raw_noise.append(("noise", 1.0 * x, 1.0 * y, 0, 0, 0, 0))
 
                 for c in car_location.itertuples():
-                        raw_car_location = ("car", 1.0 * c[2], 1.0 * c[3], c[4], 0, 0, 0)
+                        if len(c) == 9:
+                                raw_car_location = ("car", 1.0 * round(c[3]), 1.0 * round(c[4]), round(c[5]), 0, 0, 0)
+                                print(9, c)     
+                        else:
+                                raw_car_location = ("car", 1.0 * c[2], 1.0 * c[3], c[4], 0, 0, 0)
+                                print(len(c), c)
 
                 for lap_counter in lap_counters.itertuples():
                         x = 1.0*(lap_counter[2])
