@@ -1,7 +1,7 @@
 logs
 devel
 build
-Simulation-nodes
+/catkin_ws/src/Simulation-nodes/src/
 *.pyc
 *.log
 
