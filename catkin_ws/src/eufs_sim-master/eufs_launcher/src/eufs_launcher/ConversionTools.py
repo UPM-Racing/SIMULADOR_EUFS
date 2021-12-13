@@ -1502,7 +1502,7 @@ class ConversionTools:
                 # Note that the indexing may be confusing, pandas has inserted an "index" column,
                 # so all indices that you would expect should be shifted upwards by 1
                 for bluecone in blue_cones.itertuples():
-                        print(len(bluecone))
+                        #print(len(bluecone))
                         #print(len(bluecone))
                         # print('***************************************')
                         # print(bluecone)
@@ -1580,10 +1580,10 @@ class ConversionTools:
                 for c in car_location.itertuples():
                         if len(c) == 9:
                                 raw_car_location = ("car", 1.0 * round(c[3]), 1.0 * round(c[4]), round(c[5]), 0, 0, 0)
-                                print(9, c)     
+                                #print(9, c)     
                         else:
                                 raw_car_location = ("car", 1.0 * c[2], 1.0 * c[3], c[4], 0, 0, 0)
-                                print(len(c), c)
+                                #print(len(c), c)
 
                 for lap_counter in lap_counters.itertuples():
                         x = 1.0*(lap_counter[2])

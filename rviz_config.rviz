@@ -7,6 +7,7 @@ Panels:
         - /Global Options1
         - /Status1
         - /Grid1
+        - /Pose1
       Splitter Ratio: 0.5
     Tree Height: 720
   - Class: rviz/Selection
@@ -147,6 +148,21 @@ Visualization Manager:
         est_pose_9: true
       Queue Size: 100
       Value: true
+    - Alpha: 1
+      Axes Length: 1
+      Axes Radius: 0.10000000149011612
+      Class: rviz/Pose
+      Color: 255; 25; 0
+      Enabled: true
+      Head Length: 0.30000001192092896
+      Head Radius: 0.10000000149011612
+      Name: Pose
+      Shaft Length: 1
+      Shaft Radius: 0.05000000074505806
+      Shape: Axes
+      Topic: /ground_pose_pub
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -175,7 +191,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 5.538277626037598
+      Distance: 11.192538261413574
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -190,10 +206,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8653982877731323
+      Pitch: 0.6753984689712524
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.090397596359253
+      Yaw: 2.9253976345062256
     Saved: ~
 Window Geometry:
   Displays:
