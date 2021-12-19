@@ -2,7 +2,7 @@
 <launch>
 
   <!-- EKF Node -->
-  <node name="ekf_node" pkg="simulation_nodes_pkg" type="API_Kinematic_state_estimation_autocross_sim.py" output="screen">
+  <node name="ekf_node" pkg="simulation_nodes_pkg" type="API_Kinematic_state_estimation_sim.py" output="screen">
   </node>
 
   <!-- Ground Truth Node -->
