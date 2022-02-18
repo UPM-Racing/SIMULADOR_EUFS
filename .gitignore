@@ -7,3 +7,5 @@ build
 
 /backups
 /desktop_launcher
+
+/catkin_ws/src/simulation-nodes/src/
