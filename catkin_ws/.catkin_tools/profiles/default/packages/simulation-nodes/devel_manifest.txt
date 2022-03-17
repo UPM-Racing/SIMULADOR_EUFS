@@ -1,6 +1,0 @@
-simulation-nodes
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/simulation-nodes/cmake.lock /home/miguel/Documentos/EUFS/catkin_ws/devel/./cmake.lock
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/simulation-nodes/lib/pkgconfig/simulation-nodes.pc /home/miguel/Documentos/EUFS/catkin_ws/devel/lib/pkgconfig/simulation-nodes.pc
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/simulation-nodes/lib/simulation-nodes/can_comm_node /home/miguel/Documentos/EUFS/catkin_ws/devel/lib/simulation-nodes/can_comm_node
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/simulation-nodes/share/simulation-nodes/cmake/simulation-nodesConfig-version.cmake /home/miguel/Documentos/EUFS/catkin_ws/devel/share/simulation-nodes/cmake/simulation-nodesConfig-version.cmake
-/home/miguel/Documentos/EUFS/catkin_ws/devel/.private/simulation-nodes/share/simulation-nodes/cmake/simulation-nodesConfig.cmake /home/miguel/Documentos/EUFS/catkin_ws/devel/share/simulation-nodes/cmake/simulation-nodesConfig.cmake

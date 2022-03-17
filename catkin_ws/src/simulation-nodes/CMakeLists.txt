@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  eufs_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -144,9 +145,6 @@ include_directories(
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
-add_executable(can_comm_node src/can_comm/src/can_comm_node.cpp src/can_comm/src/can_comm.cpp src/can_comm/src/can.c src/can_comm/src/fs-ai_api.c)
-target_link_libraries(can_comm_node ${catkin_LIBRARIES})
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node
