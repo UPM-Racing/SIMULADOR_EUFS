@@ -1,6 +1,6 @@
 <launch>
 
     <arg name="launch-prefix" default="nice"/>
-    <node name="nodo_maestro_sim" type="nodo_maestro_sim.py" pkg="Simulation-nodes"/>
+    <node name="nodo_maestro_sim" type="nodo_maestro_sim.py" pkg="simulation-nodes"/>
 
 </launch>

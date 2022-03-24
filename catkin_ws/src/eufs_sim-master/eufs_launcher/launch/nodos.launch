@@ -2,7 +2,7 @@
 <launch>
 
   <!-- EKF Node -->
-  <node name="ekf_node" pkg="Simulation-nodes" type="Kinematic_state_estimation.py" output="screen">
+  <node name="ekf_node" pkg="simulation-nodes" type="Kinematic_state_estimation.py" output="screen">
   </node>
 
   <!-- Sensor Node -->
@@ -10,27 +10,27 @@
   </node-->
 
   <!-- Ground Truth Node -->
-  <node name="ground_truth_node" pkg="Simulation-nodes" type="real_path_class.py" output="screen">
+  <node name="ground_truth_node" pkg="simulation-nodes" type="real_path_class.py" output="screen">
   </node>
 
   <!-- SLAM Node -->
-  <node name="slam_node" pkg="Simulation-nodes" type="Ekf_Slam.py" output="screen">
+  <node name="slam_node" pkg="simulation-nodes" type="Ekf_Slam.py" output="screen">
   </node>
 
   <!-- Path planning Node -->
-  <node name="path_planning_node" pkg="Simulation-nodes" type="pathplanning_EUFS.py" output="screen">
+  <node name="path_planning_node" pkg="simulation-nodes" type="pathplanning_EUFS.py" output="screen">
   </node>
 
   <!-- Control Node -->
-  <node name="control_node" pkg="Simulation-nodes" type="Stanley_EUFS.py" output="screen">
+  <node name="control_node" pkg="simulation-nodes" type="Stanley_EUFS.py" output="screen">
   </node>
 
   <!-- Dead reckon Node -->
-  <node name="dead_reckon_node" pkg="Simulation-nodes" type="new_dead_reckon.py" output="screen">
+  <node name="dead_reckon_node" pkg="simulation-nodes" type="new_dead_reckon.py" output="screen">
   </node>
 
   <!-- Error measurement Node -->
-  <node name="error_measurement_node" pkg="Simulation-nodes" type="error_measurement.py" output="screen">
+  <node name="error_measurement_node" pkg="simulation-nodes" type="error_measurement.py" output="screen">
   </node>
 
 
