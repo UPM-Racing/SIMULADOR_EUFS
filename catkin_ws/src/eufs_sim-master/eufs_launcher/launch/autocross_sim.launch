@@ -2,19 +2,24 @@
 <launch>
 
   <!-- EKF Node -->
-  <node name="ekf_node" pkg="simulation_nodes_pkg" type="API_Kinematic_state_estimation_sim.py" output="screen">
+  <node name="ekf_node" pkg="simulation-nodes" type="API_Kinematic_state_estimation_sim.py" output="screen">
   </node>
 
   <!-- Ground Truth Node -->
-  <node name="ground_truth_node" pkg="simulation_nodes_pkg" type="API_real_path_class_sim.py" output="screen">
+  <node name="ground_truth_node" pkg="simulation-nodes" type="API_real_path_class_sim.py" output="screen">
   </node>
 
   <!-- Path planning Node -->
-  <node name="path_planning_node" pkg="simulation_nodes_pkg" type="API_pathplanning_autocross_sim.py" output="screen">
+  <node name="path_planning_node" pkg="simulation-nodes" type="API_pathplanning_autocross_sim.py" output="screen">
   </node>
 
   <!-- Control Node -->
-  <node name="control_node" pkg="simulation_nodes_pkg" type="API_Stanley_autocross_sim.py" output="screen">
+  <node name="control_node" pkg="simulation-nodes" type="API_Stanley_autocross_sim.py" output="screen">
   </node>
+
+  <!-- Local to global Node -->
+  <node name="local2global_node" pkg="simulation-nodes" type="nodo_local2global_sim.py" output="screen">
+  </node>
+
 
 </launch>
