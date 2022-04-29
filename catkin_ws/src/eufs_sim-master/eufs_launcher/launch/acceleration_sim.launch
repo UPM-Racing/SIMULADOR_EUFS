@@ -21,4 +21,9 @@
   <node name="control_node" pkg="simulation-nodes" type="API_Stanley_acceleration_sim.py" output="screen">
   </node>
 
+   <!-- Local to global Node -->
+  <node name="local2global_node" pkg="simulation-nodes" type="nodo_local2global_sim.py" output="screen">
+  </node> 
+
+
 </launch>
